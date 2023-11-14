@@ -75,7 +75,7 @@ In the forward pass:
 •       Function signal are computed neuron by neuron
 
 •       Function signal of jth neuron is
-            ![image](https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png)
+           
             ![image](https://user-images.githubusercontent.com/112920679/198814328-1a69a3cd-7e02-4829-b773-8338ac8dcd35.png)
             
 
@@ -93,11 +93,6 @@ In the backward pass,
 •       It starts from the output layer by passing error signal towards leftward layer neurons to compute local gradient recursively in each neuron
 
 •        it changes the synaptic weight by delta rule
-
-
-
-
-
 ## ALGORITHM:
 
 1.Import the necessary libraries of python.
@@ -108,8 +103,6 @@ In the backward pass,
 
 4. Call the train_test_split() function that further divides the dataset into training data and testing data with a testing data size of 20%.
 Normalize our dataset. 
-
-5.In order to do that we call the StandardScaler() function. Basically, the StandardScaler() function subtracts the mean from a feature and scales it to the unit variance.
 
 6.Invoke the MLPClassifier() function with appropriate parameters indicating the hidden layer sizes, activation function, and the maximum number of iterations.
 
