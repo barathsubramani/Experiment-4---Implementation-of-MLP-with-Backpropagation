@@ -111,10 +111,8 @@ Normalize our dataset.
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
 ## PROGRAM 
-```
 Name: Barath S
 Register number: 212222230018
-```
 ```python
 # Include necessary libraries
 import pandas as pd
