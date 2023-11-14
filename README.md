@@ -77,7 +77,7 @@ In the forward pass:
 •       Function signal of jth neuron is
             ![image](https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png)
             ![image](https://user-images.githubusercontent.com/112920679/198814328-1a69a3cd-7e02-4829-b773-8338ac8dcd35.png)
-            ![image](https://user-images.githubusercontent.com/112920679/198814339-9c9e5c30-ac2d-4f50-910c-9732f83cabe4.png)
+            
 
 
 
@@ -94,7 +94,7 @@ In the backward pass,
 
 •        it changes the synaptic weight by delta rule
 
-![image](https://user-images.githubusercontent.com/112920679/198814362-05a251fd-fceb-43cd-867b-75e6339d870a.png)
+
 
 
 
